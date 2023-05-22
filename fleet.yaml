@@ -6,6 +6,10 @@ helm:
   version: 1.2.5
 targetCustomizations:
 - name: kourosh-fleet-test
+  # Custom kustomize options overriding the options at the root
+  kustomize: {}
+  # Custom Helm options override the options at the root
+  helm: {}
   yaml:
     overlays:
     - local
