@@ -5,7 +5,7 @@ helm:
   repo: https://charts.longhorn.io
   version: 1.2.5
 targetCustomizations:
-- name: prod
+- name: kourosh-fleet-test
   yaml:
     overlays:
     - local
