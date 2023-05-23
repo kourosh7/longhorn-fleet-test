@@ -4,13 +4,6 @@ helm:
   chart: longhorn
   repo: https://charts.longhorn.io
   version: 1.2.5
-targetCustomizations:
-- name: kourosh-fleet-test
-  clusterName: c-lrf7r
-  # Custom kustomize options overriding the options at the root
-  kustomize: {}
-  # Custom Helm options override the options at the root
-  helm: {}
-  yaml:
-    overlays:
-    - local
+yaml:
+  overlays:
+  - local
