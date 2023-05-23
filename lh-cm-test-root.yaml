@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: lh-cm-test-root
-data:
-  accessMode: RWO
