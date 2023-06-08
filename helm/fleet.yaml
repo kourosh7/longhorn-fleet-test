@@ -4,3 +4,9 @@ helm:
   chart: longhorn
   repo: https://charts.longhorn.io
   version: 1.3.1
+diff:  
+  comparePatches:  
+  - apiVersion: CustomResourceDefinition
+    kind: CustomResourceDefinition
+    operations:
+    - {"op":"remove", "path":"/status/acceptedNames/kind/plural/condition/storedVersions"}
