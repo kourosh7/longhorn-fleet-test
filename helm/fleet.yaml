@@ -12,5 +12,10 @@ diff:
     kind: CustomResourceDefinition
     name: engineimages.longhorn.io
     operations:
-    - {"op":"remove", "path":"/status/acceptedNames/kind/"}
-    - {"op":"remove", "path":"/status/acceptedNames/plural/"}
+    - {"op":"remove", "path":"/status/acceptedNames/kind"}
+    - {"op":"remove", "path":"/status/acceptedNames/plural"}
+    #jsonPointers: # jsonPointers allows to ignore diffs at certain json path
+    #- "/spec/template/spec/priorityClassName"
+    #- "/spec/template/spec/tolerations"
+
+
