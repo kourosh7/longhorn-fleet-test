@@ -14,8 +14,6 @@ diff:
     operations:
     - {"op":"remove", "path":"/status/acceptedNames/kind"}
     - {"op":"remove", "path":"/status/acceptedNames/plural"}
-    #jsonPointers: # jsonPointers allows to ignore diffs at certain json path
-    #- "/spec/template/spec/priorityClassName"
-    #- "/spec/template/spec/tolerations"
-
+    - {"op":"remove", "path":"/status/conditions"}
+    - {"op":"remove", "path":"/status/storedVersions"}
 
