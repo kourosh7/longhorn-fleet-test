@@ -12,4 +12,5 @@ diff:
     kind: CustomResourceDefinition
     name: engineimages.longhorn.io
     operations:
-    - {"op": "remove", "path":"/status/"}
+    - {"op":"remove", "path":"/status/acceptedNames/kind/"}
+    - {"op":"remove", "path":"/status/acceptedNames/plural/"}
