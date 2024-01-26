@@ -1,1 +1,2 @@
-deletingConfirmationFlag: true
+defaultSettings:
+  deletingConfirmationFlag: true
