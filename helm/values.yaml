@@ -1,2 +1,4 @@
 defaultSettings:
   deletingConfirmationFlag: true
+preUpgradeChecker:
+  jobEnabled: false
